@@ -31,6 +31,25 @@ const foobar = styled.div`
 
 ## API
 
+Following media query ranges and/or breakpoints are available:
+
+### List
+- `mediaBreakpointBetween`
+- `mediaBreakpointUpSm`
+- `mediaBreakpointUpMd`
+- `mediaBreakpointUpLg`
+- `mediaBreakpointUpXl`
+- `mediaBreakpointDownXs`
+- `mediaBreakpointDownSm`
+- `mediaBreakpointDownMd`
+- `mediaBreakpointDownLg`
+- `mediaBreakpointOnlyXs`
+- `mediaBreakpointOnlySm`
+- `mediaBreakpointOnlyMd`
+- `mediaBreakpointOnlyLg`
+- `mediaBreakpointOnlyXl`
+- `breakpoints`
+
 #### `mediaBreakpointUpSm`
 
 Small devices (landscape phones, 576px and up)
@@ -55,7 +74,7 @@ const foobar = styled.div`
 
 #### `mediaBreakpointUpMd`
 
-// Medium devices (tablets, 768px and up)
+Medium devices (tablets, 768px and up)
 
 ``` js
 import { mediaBreakpointUpMd } from "styled-bootstrap-responsive-breakpoints";
@@ -77,7 +96,7 @@ const foobar = styled.div`
 
 #### `mediaBreakpointUpLg`
 
-// Large devices (desktops, 992px and up)
+Large devices (desktops, 992px and up)
 
 ``` js
 import { mediaBreakpointUpLg } from "styled-bootstrap-responsive-breakpoints";
@@ -99,7 +118,7 @@ const foobar = styled.div`
 
 #### `mediaBreakpointUpXl`
 
-// Extra large devices (large desktops, 1200px and up)
+Extra large devices (large desktops, 1200px and up)
 
 ``` js
 import { mediaBreakpointUpXl } from "styled-bootstrap-responsive-breakpoints";
