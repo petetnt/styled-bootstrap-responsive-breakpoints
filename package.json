@@ -1,7 +1,7 @@
 {
   "name": "styled-bootstrap-responsive-breakpoints",
   "version": "1.0.0",
-  "description": "Bootstrap responsive breakpoints for styled-components (and other CSS-in-JS methods)",
+  "description": "Bootstrap responsive breakpoints for styled-components (and other CSS-in-JS techniques)",
   "main": "index.js",
   "repository": "https://github.com/petetnt/styled-bootstrap-responsive-breakpoints",
   "author": "Pete Nykänen <pete.a.nykanen@gmail.com>",
