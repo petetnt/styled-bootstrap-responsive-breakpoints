@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`It should handle inline style objects snapshot 1`] = `
+.kGODAA {
+  padding: 4em;
+  background: papayawhip;
+}
+
+@media (min-width: 576px) {
+  .eMvLgl {
+    color: red;
+  }
+
+  .eMvLgl:hover {
+    font-family: 'Comic Sans';
+  }
+}
+
+<section
+  className="kGODAA"
+>
+  <h1
+    className="eMvLgl"
+  >
+    Hello World, this is my worst styled component!
+  </h1>
+</section>
+`;
+
+exports[`It should match the mediaBreakpointUpSm snapshot 1`] = `
+.kGODAA {
+  padding: 4em;
+  background: papayawhip;
+}
+
+@media (min-width: 576px) {
+  .kSTsOk {
+    color: blue;
+  }
+}
+
+<section
+  className="kGODAA"
+>
+  <h1
+    className="kSTsOk"
+  >
+    Hello World, this is my worst styled component!
+  </h1>
+</section>
+`;
