@@ -2,7 +2,7 @@
 
 > [Bootstraps](https://v4-alpha.getbootstrap.com)
 [Responsive Breakpoints](https://v4-alpha.getbootstrap.com/layout/overview/#responsive-breakpoints)
-as function for [styled-components](https://github.com/styled-components/styled-components)
+as functions for [styled-components](https://github.com/styled-components/styled-components)
 (and [other CSS-in-JS techniques](https://github.com/MicheleBertoli/css-in-js)).
 
 ## Install
