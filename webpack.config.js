@@ -4,7 +4,6 @@ module.exports = {
     filename: "index.es5.js",
     library: "styled-bootstrap-responsive-breakpoints",
     libraryTarget: "umd",
-    devtoolLineToLine: true,
   },
   module: {
     loaders: [

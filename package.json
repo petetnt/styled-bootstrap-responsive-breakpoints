@@ -8,10 +8,10 @@
   "license": "MIT",
   "scripts": {
     "test": "jest",
-    "build": "webpack",
+    "build": "webpack --optimize-minimize",
     "watch": "webpack --watch",
     "motley-eslint-init": "motley-eslint-init",
-    "prepublish": "webpack"
+    "prepublish": "webpack --optimize-minimize"
   },
   "devDependencies": {
     "babel-jest": "^19.0.0",
