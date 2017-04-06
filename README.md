@@ -1,4 +1,4 @@
-# styled-bootstrap-responsive-breakpoints
+# styled-bootstrap-responsive-breakpoints 
 
 > [Bootstraps](https://v4-alpha.getbootstrap.com)
 [Responsive Breakpoints](https://v4-alpha.getbootstrap.com/layout/overview/#responsive-breakpoints)
