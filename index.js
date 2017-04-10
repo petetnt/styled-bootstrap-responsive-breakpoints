@@ -1,4 +1,4 @@
-import { css } from "styled-components";
+import css from "styled-components/src/constructors/css";
 
 const xs = 0;
 const sm = 576;
