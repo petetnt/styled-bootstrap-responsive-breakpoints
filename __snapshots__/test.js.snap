@@ -1,18 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`It should handle inline style objects snapshot 1`] = `
+exports[`It should match the mediaBreakpointBetween snapshot 1`] = `
 .kGODAA {
   padding: 4em;
   background: papayawhip;
 }
 
-@media (min-width: 576px) {
-  .eMvLgl {
-    color: red;
-  }
-
-  .eMvLgl:hover {
-    font-family: 'Comic Sans';
+@media (min-width: 100px) and (max-width: 199px) {
+  .jYlBzD {
+    color: blue;
   }
 }
 
@@ -20,9 +16,262 @@ exports[`It should handle inline style objects snapshot 1`] = `
   className="kGODAA"
 >
   <h1
-    className="eMvLgl"
+    className="jYlBzD"
   >
-    Hello World, this is my worst styled component!
+    Hello World!
+  </h1>
+</section>
+`;
+
+exports[`It should match the mediaBreakpointDowSm snapshot 1`] = `
+.kGODAA {
+  padding: 4em;
+  background: papayawhip;
+}
+
+@media (max-width: 767px) {
+  .iJbswk {
+    color: blue;
+  }
+}
+
+<section
+  className="kGODAA"
+>
+  <h1
+    className="iJbswk"
+  >
+    Hello World!
+  </h1>
+</section>
+`;
+
+exports[`It should match the mediaBreakpointDownLg snapshot 1`] = `
+.kGODAA {
+  padding: 4em;
+  background: papayawhip;
+}
+
+@media (max-width: 1199px) {
+  .fJgIUc {
+    color: blue;
+  }
+}
+
+<section
+  className="kGODAA"
+>
+  <h1
+    className="fJgIUc"
+  >
+    Hello World!
+  </h1>
+</section>
+`;
+
+exports[`It should match the mediaBreakpointDownMd snapshot 1`] = `
+.kGODAA {
+  padding: 4em;
+  background: papayawhip;
+}
+
+@media (max-width: 991px) {
+  .ceqzHI {
+    color: blue;
+  }
+}
+
+<section
+  className="kGODAA"
+>
+  <h1
+    className="ceqzHI"
+  >
+    Hello World!
+  </h1>
+</section>
+`;
+
+exports[`It should match the mediaBreakpointDownXs snapshot 1`] = `
+.kGODAA {
+  padding: 4em;
+  background: papayawhip;
+}
+
+@media (max-width: 575px) {
+  .layFVi {
+    color: blue;
+  }
+}
+
+<section
+  className="kGODAA"
+>
+  <h1
+    className="layFVi"
+  >
+    Hello World!
+  </h1>
+</section>
+`;
+
+exports[`It should match the mediaBreakpointOnlyLg snapshot 1`] = `
+.kGODAA {
+  padding: 4em;
+  background: papayawhip;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .dTkfdz {
+    color: blue;
+  }
+}
+
+<section
+  className="kGODAA"
+>
+  <h1
+    className="dTkfdz"
+  >
+    Hello World!
+  </h1>
+</section>
+`;
+
+exports[`It should match the mediaBreakpointOnlyMd snapshot 1`] = `
+.kGODAA {
+  padding: 4em;
+  background: papayawhip;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .kbKtAh {
+    color: blue;
+  }
+}
+
+<section
+  className="kGODAA"
+>
+  <h1
+    className="kbKtAh"
+  >
+    Hello World!
+  </h1>
+</section>
+`;
+
+exports[`It should match the mediaBreakpointOnlySm snapshot 1`] = `
+.kGODAA {
+  padding: 4em;
+  background: papayawhip;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .izupqg {
+    color: blue;
+  }
+}
+
+<section
+  className="kGODAA"
+>
+  <h1
+    className="izupqg"
+  >
+    Hello World!
+  </h1>
+</section>
+`;
+
+exports[`It should match the mediaBreakpointOnlyXl snapshot 1`] = `
+.kGODAA {
+  padding: 4em;
+  background: papayawhip;
+}
+
+@media (min-width: 1200px) {
+  .cNKUnn {
+    color: blue;
+  }
+}
+
+<section
+  className="kGODAA"
+>
+  <h1
+    className="cNKUnn"
+  >
+    Hello World!
+  </h1>
+</section>
+`;
+
+exports[`It should match the mediaBreakpointOnlyXs snapshot 1`] = `
+.kGODAA {
+  padding: 4em;
+  background: papayawhip;
+}
+
+@media (max-width: 575px) {
+  .layFVi {
+    color: blue;
+  }
+}
+
+<section
+  className="kGODAA"
+>
+  <h1
+    className="layFVi"
+  >
+    Hello World!
+  </h1>
+</section>
+`;
+
+exports[`It should match the mediaBreakpointUpLg snapshot 1`] = `
+.kGODAA {
+  padding: 4em;
+  background: papayawhip;
+}
+
+@media (min-width: 992px) {
+  .kChZUa {
+    color: blue;
+  }
+}
+
+<section
+  className="kGODAA"
+>
+  <h1
+    className="kChZUa"
+  >
+    Hello World!
+  </h1>
+</section>
+`;
+
+exports[`It should match the mediaBreakpointUpMd snapshot 1`] = `
+.kGODAA {
+  padding: 4em;
+  background: papayawhip;
+}
+
+@media (min-width: 768px) {
+  .hwLgqM {
+    color: blue;
+  }
+}
+
+<section
+  className="kGODAA"
+>
+  <h1
+    className="hwLgqM"
+  >
+    Hello World!
   </h1>
 </section>
 `;
@@ -45,7 +294,30 @@ exports[`It should match the mediaBreakpointUpSm snapshot 1`] = `
   <h1
     className="kSTsOk"
   >
-    Hello World, this is my worst styled component!
+    Hello World!
+  </h1>
+</section>
+`;
+
+exports[`It should match the mediaBreakpointUpXl snapshot 1`] = `
+.kGODAA {
+  padding: 4em;
+  background: papayawhip;
+}
+
+@media (min-width: 1200px) {
+  .cNKUnn {
+    color: blue;
+  }
+}
+
+<section
+  className="kGODAA"
+>
+  <h1
+    className="cNKUnn"
+  >
+    Hello World!
   </h1>
 </section>
 `;

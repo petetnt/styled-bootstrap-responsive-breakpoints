@@ -1,6 +1,6 @@
 {
   "name": "styled-bootstrap-responsive-breakpoints",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "description": "Bootstrap responsive breakpoints for styled-components (and other CSS-in-JS techniques)",
   "main": "index.es5.js",
   "repository": "https://github.com/petetnt/styled-bootstrap-responsive-breakpoints",
