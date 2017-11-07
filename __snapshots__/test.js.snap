@@ -1,22 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`It should match the mediaBreakpointBetween snapshot 1`] = `
-.kGODAA {
+.c0 {
   padding: 4em;
   background: papayawhip;
 }
 
-@media (min-width: 100px) and (max-width: 199px) {
-  .jYlBzD {
+@media (min-width:100px) and (max-width:199px) {
+  .c1 {
     color: blue;
   }
 }
 
 <section
-  className="kGODAA"
+  className="c0"
 >
   <h1
-    className="jYlBzD"
+    className="c1"
   >
     Hello World!
   </h1>
@@ -24,22 +24,22 @@ exports[`It should match the mediaBreakpointBetween snapshot 1`] = `
 `;
 
 exports[`It should match the mediaBreakpointDowSm snapshot 1`] = `
-.kGODAA {
+.c0 {
   padding: 4em;
   background: papayawhip;
 }
 
-@media (max-width: 767px) {
-  .iJbswk {
+@media (max-width:767px) {
+  .c1 {
     color: blue;
   }
 }
 
 <section
-  className="kGODAA"
+  className="c0"
 >
   <h1
-    className="iJbswk"
+    className="c1"
   >
     Hello World!
   </h1>
@@ -47,22 +47,22 @@ exports[`It should match the mediaBreakpointDowSm snapshot 1`] = `
 `;
 
 exports[`It should match the mediaBreakpointDownLg snapshot 1`] = `
-.kGODAA {
+.c0 {
   padding: 4em;
   background: papayawhip;
 }
 
-@media (max-width: 1199px) {
-  .fJgIUc {
+@media (max-width:1199px) {
+  .c1 {
     color: blue;
   }
 }
 
 <section
-  className="kGODAA"
+  className="c0"
 >
   <h1
-    className="fJgIUc"
+    className="c1"
   >
     Hello World!
   </h1>
@@ -70,22 +70,22 @@ exports[`It should match the mediaBreakpointDownLg snapshot 1`] = `
 `;
 
 exports[`It should match the mediaBreakpointDownMd snapshot 1`] = `
-.kGODAA {
+.c0 {
   padding: 4em;
   background: papayawhip;
 }
 
-@media (max-width: 991px) {
-  .ceqzHI {
+@media (max-width:991px) {
+  .c1 {
     color: blue;
   }
 }
 
 <section
-  className="kGODAA"
+  className="c0"
 >
   <h1
-    className="ceqzHI"
+    className="c1"
   >
     Hello World!
   </h1>
@@ -93,22 +93,22 @@ exports[`It should match the mediaBreakpointDownMd snapshot 1`] = `
 `;
 
 exports[`It should match the mediaBreakpointDownXs snapshot 1`] = `
-.kGODAA {
+.c0 {
   padding: 4em;
   background: papayawhip;
 }
 
-@media (max-width: 575px) {
-  .layFVi {
+@media (max-width:575px) {
+  .c1 {
     color: blue;
   }
 }
 
 <section
-  className="kGODAA"
+  className="c0"
 >
   <h1
-    className="layFVi"
+    className="c1"
   >
     Hello World!
   </h1>
@@ -116,22 +116,22 @@ exports[`It should match the mediaBreakpointDownXs snapshot 1`] = `
 `;
 
 exports[`It should match the mediaBreakpointOnlyLg snapshot 1`] = `
-.kGODAA {
+.c0 {
   padding: 4em;
   background: papayawhip;
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
-  .dTkfdz {
+@media (min-width:992px) and (max-width:1199px) {
+  .c1 {
     color: blue;
   }
 }
 
 <section
-  className="kGODAA"
+  className="c0"
 >
   <h1
-    className="dTkfdz"
+    className="c1"
   >
     Hello World!
   </h1>
@@ -139,22 +139,22 @@ exports[`It should match the mediaBreakpointOnlyLg snapshot 1`] = `
 `;
 
 exports[`It should match the mediaBreakpointOnlyMd snapshot 1`] = `
-.kGODAA {
+.c0 {
   padding: 4em;
   background: papayawhip;
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-  .kbKtAh {
+@media (min-width:768px) and (max-width:991px) {
+  .c1 {
     color: blue;
   }
 }
 
 <section
-  className="kGODAA"
+  className="c0"
 >
   <h1
-    className="kbKtAh"
+    className="c1"
   >
     Hello World!
   </h1>
@@ -162,22 +162,22 @@ exports[`It should match the mediaBreakpointOnlyMd snapshot 1`] = `
 `;
 
 exports[`It should match the mediaBreakpointOnlySm snapshot 1`] = `
-.kGODAA {
+.c0 {
   padding: 4em;
   background: papayawhip;
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
-  .izupqg {
+@media (min-width:576px) and (max-width:767px) {
+  .c1 {
     color: blue;
   }
 }
 
 <section
-  className="kGODAA"
+  className="c0"
 >
   <h1
-    className="izupqg"
+    className="c1"
   >
     Hello World!
   </h1>
@@ -185,22 +185,22 @@ exports[`It should match the mediaBreakpointOnlySm snapshot 1`] = `
 `;
 
 exports[`It should match the mediaBreakpointOnlyXl snapshot 1`] = `
-.kGODAA {
+.c0 {
   padding: 4em;
   background: papayawhip;
 }
 
-@media (min-width: 1200px) {
-  .cNKUnn {
+@media (min-width:1200px) {
+  .c1 {
     color: blue;
   }
 }
 
 <section
-  className="kGODAA"
+  className="c0"
 >
   <h1
-    className="cNKUnn"
+    className="c1"
   >
     Hello World!
   </h1>
@@ -208,22 +208,22 @@ exports[`It should match the mediaBreakpointOnlyXl snapshot 1`] = `
 `;
 
 exports[`It should match the mediaBreakpointOnlyXs snapshot 1`] = `
-.kGODAA {
+.c0 {
   padding: 4em;
   background: papayawhip;
 }
 
-@media (max-width: 575px) {
-  .layFVi {
+@media (max-width:575px) {
+  .c1 {
     color: blue;
   }
 }
 
 <section
-  className="kGODAA"
+  className="c0"
 >
   <h1
-    className="layFVi"
+    className="c1"
   >
     Hello World!
   </h1>
@@ -231,22 +231,22 @@ exports[`It should match the mediaBreakpointOnlyXs snapshot 1`] = `
 `;
 
 exports[`It should match the mediaBreakpointUpLg snapshot 1`] = `
-.kGODAA {
+.c0 {
   padding: 4em;
   background: papayawhip;
 }
 
-@media (min-width: 992px) {
-  .kChZUa {
+@media (min-width:992px) {
+  .c1 {
     color: blue;
   }
 }
 
 <section
-  className="kGODAA"
+  className="c0"
 >
   <h1
-    className="kChZUa"
+    className="c1"
   >
     Hello World!
   </h1>
@@ -254,22 +254,22 @@ exports[`It should match the mediaBreakpointUpLg snapshot 1`] = `
 `;
 
 exports[`It should match the mediaBreakpointUpMd snapshot 1`] = `
-.kGODAA {
+.c0 {
   padding: 4em;
   background: papayawhip;
 }
 
-@media (min-width: 768px) {
-  .hwLgqM {
+@media (min-width:768px) {
+  .c1 {
     color: blue;
   }
 }
 
 <section
-  className="kGODAA"
+  className="c0"
 >
   <h1
-    className="hwLgqM"
+    className="c1"
   >
     Hello World!
   </h1>
@@ -277,22 +277,22 @@ exports[`It should match the mediaBreakpointUpMd snapshot 1`] = `
 `;
 
 exports[`It should match the mediaBreakpointUpSm snapshot 1`] = `
-.kGODAA {
+.c0 {
   padding: 4em;
   background: papayawhip;
 }
 
-@media (min-width: 576px) {
-  .kSTsOk {
+@media (min-width:576px) {
+  .c1 {
     color: blue;
   }
 }
 
 <section
-  className="kGODAA"
+  className="c0"
 >
   <h1
-    className="kSTsOk"
+    className="c1"
   >
     Hello World!
   </h1>
@@ -300,22 +300,22 @@ exports[`It should match the mediaBreakpointUpSm snapshot 1`] = `
 `;
 
 exports[`It should match the mediaBreakpointUpXl snapshot 1`] = `
-.kGODAA {
+.c0 {
   padding: 4em;
   background: papayawhip;
 }
 
-@media (min-width: 1200px) {
-  .cNKUnn {
+@media (min-width:1200px) {
+  .c1 {
     color: blue;
   }
 }
 
 <section
-  className="kGODAA"
+  className="c0"
 >
   <h1
-    className="cNKUnn"
+    className="c1"
   >
     Hello World!
   </h1>
