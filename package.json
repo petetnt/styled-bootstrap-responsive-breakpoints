@@ -1,6 +1,6 @@
 {
   "name": "styled-bootstrap-responsive-breakpoints",
-  "version": "4.1.0",
+  "version": "5.0.0",
   "description": "Bootstrap responsive breakpoints for styled-components (and other CSS-in-JS techniques)",
   "main": "index.es5.js",
   "repository": "https://github.com/petetnt/styled-bootstrap-responsive-breakpoints",
@@ -28,15 +28,14 @@
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.3",
     "jest": "^19.0.2",
-    "jest-styled-components": "^1.3.2",
-    "react": "^15.4.2",
-    "react-addons-test-utils": "^15.4.2",
-    "react-dom": "^15.4.2",
-    "react-test-renderer": "^15.4.2",
+    "jest-styled-components": "^4.9.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-test-renderer": "16.0.0",
     "webpack": "^2.3.3"
   },
   "dependencies": {
-    "styled-components": "^1.4.4"
+    "styled-components": "^2.2.3"
   },
   "files": [
     "index.js",
