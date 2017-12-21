@@ -1,4 +1,4 @@
-# styled-bootstrap-responsive-breakpoints 
+# styled-bootstrap-responsive-breakpoints
 
 > [Bootstraps](https://v4-alpha.getbootstrap.com)
 [Responsive Breakpoints](https://v4-alpha.getbootstrap.com/layout/overview/#responsive-breakpoints)
@@ -22,7 +22,7 @@ import { mediaBreakpointOnlyXl } from "styled-bootstrap-responsive-breakpoints";
 
 const foobar = styled.div`
   background-color: red;
-  
+
   ${mediaBreakpointOnlyXl`
     background-color: blue;
   `}
@@ -380,6 +380,14 @@ outputs:
   xl: "1200px",
 };
 */
+```
+
+#### Unitless breakpoints
+
+You can also import the unitless breakpoints
+
+``` js
+import { xs, sm, md, lg, xl } from "styled-bootstrap-responsive-breakpoints";
 ```
 
 # License

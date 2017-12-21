@@ -4,6 +4,7 @@ import renderer from "react-test-renderer";
 import "jest-styled-components";
 
 import {
+  xs, sm, md, lg, xl,
   breakpoints,
 
   mediaBreakpointUpSm,
@@ -48,16 +49,24 @@ const componentFactory = (mediaQuery) => {
   return tree;
 };
 
+test("It should export unitless breakpoints", () => {
+  expect(xs).toEqual(0);
+  expect(sm).toEqual(576);
+  expect(md).toEqual(768);
+  expect(lg).toEqual(992);
+  expect(xl).toEqual(1200);
+});
+
 test("It should export bootstrap breakpoints", () => {
   const {
-    xs, sm, md, lg, xl,
+    xs: bxs, sm: bsm, md: bmd, lg: blg, xl: bxl,
   } = breakpoints;
 
-  expect(xs).toEqual("0px");
-  expect(sm).toEqual("576px");
-  expect(md).toEqual("768px");
-  expect(lg).toEqual("992px");
-  expect(xl).toEqual("1200px");
+  expect(bxs).toEqual("0px");
+  expect(bsm).toEqual("576px");
+  expect(bmd).toEqual("768px");
+  expect(blg).toEqual("992px");
+  expect(bxl).toEqual("1200px");
 });
 
 test("It should match the mediaBreakpointUpSm snapshot", () => {

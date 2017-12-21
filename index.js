@@ -1,10 +1,10 @@
 import { css } from "styled-components";
 
-const xs = 0;
-const sm = 576;
-const md = 768;
-const lg = 992;
-const xl = 1200;
+export const xs = 0;
+export const sm = 576;
+export const md = 768;
+export const lg = 992;
+export const xl = 1200;
 
 const mediaBreakpointUp = size => styles => css`
 @media (min-width: ${size}px) {
@@ -22,6 +22,14 @@ export const mediaBreakpointBetweenAny = (min, max) => styles => css`
 };`;
 
 export const breakpoints = {
+  xs: `${xs}px`,
+  sm: `${sm}px`,
+  md: `${md}px`,
+  lg: `${lg}px`,
+  xl: `${xl}px`,
+};
+
+export const unitlessBreakpoints = {
   xs: `${xs}px`,
   sm: `${sm}px`,
   md: `${md}px`,
