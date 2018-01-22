@@ -1,6 +1,6 @@
 {
   "name": "styled-bootstrap-responsive-breakpoints",
-  "version": "5.1.0",
+  "version": "6.0.0",
   "description": "Bootstrap responsive breakpoints for styled-components (and other CSS-in-JS techniques)",
   "main": "index.es5.js",
   "repository": "https://github.com/petetnt/styled-bootstrap-responsive-breakpoints",
@@ -32,10 +32,11 @@
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-test-renderer": "16.0.0",
+    "styled-components": "^2.4.0",
     "webpack": "^2.3.3"
   },
-  "dependencies": {
-    "styled-components": "^2.3.3"
+  "peerDependencies": {
+    "styled-components": "^2.4.0"
   },
   "files": [
     "index.js",

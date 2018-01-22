@@ -8,11 +8,11 @@ as functions for [styled-components](https://github.com/styled-components/styled
 ## Install
 
 ``` bash
-yarn add styled-bootstrap-responsive-breakpoints
+yarn add styled-components styled-bootstrap-responsive-breakpoints
 
 # or
 
-npm install  styled-bootstrap-responsive-breakpoints --save
+npm install styled-components styled-bootstrap-responsive-breakpoints --save
 ```
 
 ## Usage
