@@ -29,14 +29,6 @@ export const breakpoints = {
   xl: `${xl}px`,
 };
 
-export const unitlessBreakpoints = {
-  xs: `${xs}px`,
-  sm: `${sm}px`,
-  md: `${md}px`,
-  lg: `${lg}px`,
-  xl: `${xl}px`,
-};
-
 export const mediaBreakpointUpXs = (...args) => css(...args);
 export const mediaBreakpointUpSm = (...args) => mediaBreakpointUp(sm)(css(...args));
 export const mediaBreakpointUpMd = (...args) => mediaBreakpointUp(md)(css(...args));
