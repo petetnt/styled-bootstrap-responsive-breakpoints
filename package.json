@@ -7,7 +7,7 @@
   "author": "Pete Nykänen <pete.a.nykanen@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "npm run build && jest",
+    "test": "bundlesize && npm run build && jest",
     "build": "wp --run-prod --mode production --devtool source-map",
     "watch": "wp --run-dev --mode development --watch",
     "motley-eslint-init": "motley-eslint-init",
@@ -51,5 +51,8 @@
       "path": "./index.es5.js",
       "maxSize": "60 kB"
     }
-  ]
+  ],
+  "dependencies": {
+    "bundlesize": "^0.17.0"
+  }
 }
