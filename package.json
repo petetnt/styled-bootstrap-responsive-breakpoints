@@ -1,25 +1,25 @@
 {
   "name": "styled-bootstrap-responsive-breakpoints",
-  "version": "6.0.0",
+  "version": "6.0.1",
   "description": "Bootstrap responsive breakpoints for styled-components (and other CSS-in-JS techniques)",
   "main": "index.es5.js",
   "repository": "https://github.com/petetnt/styled-bootstrap-responsive-breakpoints",
   "author": "Pete Nykänen <pete.a.nykanen@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest",
-    "build": "webpack --optimize-minimize",
-    "watch": "webpack --watch",
+    "test": "npm run build && jest",
+    "build": "wp --run-prod --mode production --devtool source-map",
+    "watch": "wp --run-dev --mode development --watch",
     "motley-eslint-init": "motley-eslint-init",
-    "prepublish": "webpack --optimize-minimize"
+    "prepublish": "yarn build"
   },
   "devDependencies": {
-    "babel-jest": "^19.0.0",
-    "babel-loader": "^6.4.1",
-    "babel-plugin-transform-flow-strip-types": "^6.22.0",
-    "babel-preset-es2015": "^6.24.0",
-    "babel-preset-es2017": "^6.22.0",
-    "babel-preset-react": "^6.23.0",
+    "@babel/core": "^7.0.0-beta.55",
+    "@babel/preset-env": "^7.0.0-beta.55",
+    "@babel/preset-react": "^7.0.0-beta.55",
+    "babel-core": "^7.0.0-0",
+    "babel-jest": "^23.4.2",
+    "babel-loader": "^8.0.0-beta",
     "enzyme": "^2.8.0",
     "eslint": "^3.18.0",
     "eslint-config-airbnb": "^14.1.0",
@@ -27,16 +27,17 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.3",
-    "jest": "^19.0.2",
-    "jest-styled-components": "^4.9.0",
+    "jest": "^23.4.2",
+    "jest-styled-components": "5.0.1",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-test-renderer": "16.0.0",
-    "styled-components": "^2.4.0",
-    "webpack": "^2.3.3"
+    "styled-components": "3.3.3",
+    "webpack": "^4.1.6",
+    "webpack-command": "^0.4.1"
   },
   "peerDependencies": {
-    "styled-components": "^2.4.0"
+    "styled-components": "^3.3.3"
   },
   "files": [
     "index.js",

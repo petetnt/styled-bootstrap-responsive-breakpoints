@@ -24,7 +24,7 @@ import {
   mediaBreakpointOnlyXl,
 
   mediaBreakpointBetween,
-} from "./index";
+} from "./index.es5";
 
 const componentFactory = (mediaQuery) => {
   const colorBlue = "blue";

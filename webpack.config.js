@@ -2,15 +2,21 @@ module.exports = {
   entry: "./index.js",
   output: {
     filename: "index.es5.js",
-    library: "styled-bootstrap-responsive-breakpoints",
+    path: __dirname,
     libraryTarget: "umd",
+    globalObject: "typeof self !== 'undefined' ? self : this",
   },
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.js$/,
-        loader: "babel-loader",
         exclude: /(node_modules)/,
+        use: {
+          loader: "babel-loader",
+          options: {
+            presets: ["@babel/preset-env"],
+          },
+        },
       },
     ],
   },
