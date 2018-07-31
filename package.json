@@ -45,5 +45,11 @@
   ],
   "jest": {
     "testEnvironment": "node"
-  }
+  },
+  "bundlesize": [
+    {
+      "path": "./index.es5.js",
+      "maxSize": "60 kB"
+    }
+  ]
 }
