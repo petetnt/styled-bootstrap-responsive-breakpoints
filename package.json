@@ -36,7 +36,7 @@
     "webpack": "^2.3.3"
   },
   "peerDependencies": {
-    "styled-components": "^2.4.0"
+    "styled-components": ">=2.4.0"
   },
   "files": [
     "index.js",
