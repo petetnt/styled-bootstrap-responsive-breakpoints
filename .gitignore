@@ -4,3 +4,4 @@ yarn-debug.log*
 yarn-error.log*
 node_modules
 index.es5.js
+index.es5.js.map

@@ -1,30 +1,34 @@
 import React from "react";
 import styled from "styled-components";
-import renderer from "react-test-renderer";
+import Enzyme from "enzyme";
+import Adapter from "enzyme-adapter-react-16";
 import "jest-styled-components";
+
 
 import {
   xs, sm, md, lg, xl,
   breakpoints,
-
+  
   mediaBreakpointUpSm,
   mediaBreakpointUpMd,
   mediaBreakpointUpLg,
   mediaBreakpointUpXl,
-
+  
   mediaBreakpointDownXs,
   mediaBreakpointDownSm,
   mediaBreakpointDownMd,
   mediaBreakpointDownLg,
-
+  
   mediaBreakpointOnlyXs,
   mediaBreakpointOnlySm,
   mediaBreakpointOnlyMd,
   mediaBreakpointOnlyLg,
   mediaBreakpointOnlyXl,
-
+  
   mediaBreakpointBetween,
 } from "./index";
+
+Enzyme.configure({ adapter: new Adapter() });
 
 const componentFactory = (mediaQuery) => {
   const colorBlue = "blue";
@@ -40,11 +44,11 @@ const componentFactory = (mediaQuery) => {
     `}
   `;
 
-  const tree = renderer.create(
+  const tree = Enzyme.shallow(
     <Wrapper>
       <Title>Hello World!</Title>
     </Wrapper>,
-  ).toJSON();
+  );
 
   return tree;
 };
@@ -94,7 +98,7 @@ test("It should match the mediaBreakpointDownXs snapshot", () => {
   expect(tree).toMatchSnapshot();
 });
 
-test("It should match the mediaBreakpointDowSm snapshot", () => {
+test("It should match the mediaBreakpointDownSm snapshot", () => {
   const tree = componentFactory(mediaBreakpointDownSm);
   expect(tree).toMatchSnapshot();
 });
