@@ -1,323 +1,2761 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`It should match the mediaBreakpointBetween snapshot 1`] = `
-.c0 {
-  padding: 4em;
-  background: papayawhip;
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ForwardRef>
+    <ForwardRef>
+      Hello World!
+    </ForwardRef>
+  </ForwardRef>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <ForwardRef>
+        Hello World!
+      </ForwardRef>,
+      "forwardedComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-eNQAEJ",
+          "isStatic": true,
+          "rules": Array [
+            "
+    padding: 4em;
+    background: papayawhip;
+  ",
+          ],
+        },
+        "displayName": "styled.section",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-eNQAEJ",
+        "target": "section",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+      "forwardedRef": null,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": "Hello World!",
+      },
+      "ref": null,
+      "rendered": "Hello World!",
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-hMqMXs",
+          "isStatic": true,
+          "rules": Array [
+            "
+    ",
+            "
+@media (min-width: ",
+            "100",
+            "px) and (max-width: ",
+            "199",
+            "px) {
+  ",
+            "
+      color: ",
+            "blue",
+            ";
+    ",
+            "
+};",
+            "
+  ",
+          ],
+        },
+        "displayName": "styled.h1",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-hMqMXs",
+        "target": "h1",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <ForwardRef>
+          Hello World!
+        </ForwardRef>,
+        "forwardedComponent": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-eNQAEJ",
+            "isStatic": true,
+            "rules": Array [
+              "
+    padding: 4em;
+    background: papayawhip;
+  ",
+            ],
+          },
+          "displayName": "styled.section",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-eNQAEJ",
+          "target": "section",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+        "forwardedRef": null,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "Hello World!",
+        },
+        "ref": null,
+        "rendered": "Hello World!",
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-hMqMXs",
+            "isStatic": true,
+            "rules": Array [
+              "
+    ",
+              "
+@media (min-width: ",
+              "100",
+              "px) and (max-width: ",
+              "199",
+              "px) {
+  ",
+              "
+      color: ",
+              "blue",
+              ";
+    ",
+              "
+};",
+              "
+  ",
+            ],
+          },
+          "displayName": "styled.h1",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-hMqMXs",
+          "target": "h1",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
 }
-
-@media (min-width:100px) and (max-width:199px) {
-  .c1 {
-    color: blue;
-  }
-}
-
-<section
-  className="c0"
->
-  <h1
-    className="c1"
-  >
-    Hello World!
-  </h1>
-</section>
-`;
-
-exports[`It should match the mediaBreakpointDowSm snapshot 1`] = `
-.c0 {
-  padding: 4em;
-  background: papayawhip;
-}
-
-@media (max-width:767px) {
-  .c1 {
-    color: blue;
-  }
-}
-
-<section
-  className="c0"
->
-  <h1
-    className="c1"
-  >
-    Hello World!
-  </h1>
-</section>
 `;
 
 exports[`It should match the mediaBreakpointDownLg snapshot 1`] = `
-.c0 {
-  padding: 4em;
-  background: papayawhip;
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ForwardRef>
+    <ForwardRef>
+      Hello World!
+    </ForwardRef>
+  </ForwardRef>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <ForwardRef>
+        Hello World!
+      </ForwardRef>,
+      "forwardedComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-jTzLTM",
+          "isStatic": true,
+          "rules": Array [
+            "
+    padding: 4em;
+    background: papayawhip;
+  ",
+          ],
+        },
+        "displayName": "styled.section",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-jTzLTM",
+        "target": "section",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+      "forwardedRef": null,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": "Hello World!",
+      },
+      "ref": null,
+      "rendered": "Hello World!",
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-fjdhpX",
+          "isStatic": true,
+          "rules": Array [
+            "
+    ",
+            "
+@media (max-width: ",
+            "1199",
+            "px) {
+  ",
+            "
+      color: ",
+            "blue",
+            ";
+    ",
+            "
+};",
+            "
+  ",
+          ],
+        },
+        "displayName": "styled.h1",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-fjdhpX",
+        "target": "h1",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <ForwardRef>
+          Hello World!
+        </ForwardRef>,
+        "forwardedComponent": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-jTzLTM",
+            "isStatic": true,
+            "rules": Array [
+              "
+    padding: 4em;
+    background: papayawhip;
+  ",
+            ],
+          },
+          "displayName": "styled.section",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-jTzLTM",
+          "target": "section",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+        "forwardedRef": null,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "Hello World!",
+        },
+        "ref": null,
+        "rendered": "Hello World!",
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-fjdhpX",
+            "isStatic": true,
+            "rules": Array [
+              "
+    ",
+              "
+@media (max-width: ",
+              "1199",
+              "px) {
+  ",
+              "
+      color: ",
+              "blue",
+              ";
+    ",
+              "
+};",
+              "
+  ",
+            ],
+          },
+          "displayName": "styled.h1",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-fjdhpX",
+          "target": "h1",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
 }
-
-@media (max-width:1199px) {
-  .c1 {
-    color: blue;
-  }
-}
-
-<section
-  className="c0"
->
-  <h1
-    className="c1"
-  >
-    Hello World!
-  </h1>
-</section>
 `;
 
 exports[`It should match the mediaBreakpointDownMd snapshot 1`] = `
-.c0 {
-  padding: 4em;
-  background: papayawhip;
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ForwardRef>
+    <ForwardRef>
+      Hello World!
+    </ForwardRef>
+  </ForwardRef>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <ForwardRef>
+        Hello World!
+      </ForwardRef>,
+      "forwardedComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-gqjmRU",
+          "isStatic": true,
+          "rules": Array [
+            "
+    padding: 4em;
+    background: papayawhip;
+  ",
+          ],
+        },
+        "displayName": "styled.section",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-gqjmRU",
+        "target": "section",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+      "forwardedRef": null,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": "Hello World!",
+      },
+      "ref": null,
+      "rendered": "Hello World!",
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-VigVT",
+          "isStatic": true,
+          "rules": Array [
+            "
+    ",
+            "
+@media (max-width: ",
+            "991",
+            "px) {
+  ",
+            "
+      color: ",
+            "blue",
+            ";
+    ",
+            "
+};",
+            "
+  ",
+          ],
+        },
+        "displayName": "styled.h1",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-VigVT",
+        "target": "h1",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <ForwardRef>
+          Hello World!
+        </ForwardRef>,
+        "forwardedComponent": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-gqjmRU",
+            "isStatic": true,
+            "rules": Array [
+              "
+    padding: 4em;
+    background: papayawhip;
+  ",
+            ],
+          },
+          "displayName": "styled.section",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-gqjmRU",
+          "target": "section",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+        "forwardedRef": null,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "Hello World!",
+        },
+        "ref": null,
+        "rendered": "Hello World!",
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-VigVT",
+            "isStatic": true,
+            "rules": Array [
+              "
+    ",
+              "
+@media (max-width: ",
+              "991",
+              "px) {
+  ",
+              "
+      color: ",
+              "blue",
+              ";
+    ",
+              "
+};",
+              "
+  ",
+            ],
+          },
+          "displayName": "styled.h1",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-VigVT",
+          "target": "h1",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
 }
+`;
 
-@media (max-width:991px) {
-  .c1 {
-    color: blue;
-  }
+exports[`It should match the mediaBreakpointDownSm snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ForwardRef>
+    <ForwardRef>
+      Hello World!
+    </ForwardRef>
+  </ForwardRef>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <ForwardRef>
+        Hello World!
+      </ForwardRef>,
+      "forwardedComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-iwsKbI",
+          "isStatic": true,
+          "rules": Array [
+            "
+    padding: 4em;
+    background: papayawhip;
+  ",
+          ],
+        },
+        "displayName": "styled.section",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-iwsKbI",
+        "target": "section",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+      "forwardedRef": null,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": "Hello World!",
+      },
+      "ref": null,
+      "rendered": "Hello World!",
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-gZMcBi",
+          "isStatic": true,
+          "rules": Array [
+            "
+    ",
+            "
+@media (max-width: ",
+            "767",
+            "px) {
+  ",
+            "
+      color: ",
+            "blue",
+            ";
+    ",
+            "
+};",
+            "
+  ",
+          ],
+        },
+        "displayName": "styled.h1",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-gZMcBi",
+        "target": "h1",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <ForwardRef>
+          Hello World!
+        </ForwardRef>,
+        "forwardedComponent": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-iwsKbI",
+            "isStatic": true,
+            "rules": Array [
+              "
+    padding: 4em;
+    background: papayawhip;
+  ",
+            ],
+          },
+          "displayName": "styled.section",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-iwsKbI",
+          "target": "section",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+        "forwardedRef": null,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "Hello World!",
+        },
+        "ref": null,
+        "rendered": "Hello World!",
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-gZMcBi",
+            "isStatic": true,
+            "rules": Array [
+              "
+    ",
+              "
+@media (max-width: ",
+              "767",
+              "px) {
+  ",
+              "
+      color: ",
+              "blue",
+              ";
+    ",
+              "
+};",
+              "
+  ",
+            ],
+          },
+          "displayName": "styled.h1",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-gZMcBi",
+          "target": "h1",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
 }
-
-<section
-  className="c0"
->
-  <h1
-    className="c1"
-  >
-    Hello World!
-  </h1>
-</section>
 `;
 
 exports[`It should match the mediaBreakpointDownXs snapshot 1`] = `
-.c0 {
-  padding: 4em;
-  background: papayawhip;
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ForwardRef>
+    <ForwardRef>
+      Hello World!
+    </ForwardRef>
+  </ForwardRef>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <ForwardRef>
+        Hello World!
+      </ForwardRef>,
+      "forwardedComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-htoDjs",
+          "isStatic": true,
+          "rules": Array [
+            "
+    padding: 4em;
+    background: papayawhip;
+  ",
+          ],
+        },
+        "displayName": "styled.section",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-htoDjs",
+        "target": "section",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+      "forwardedRef": null,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": "Hello World!",
+      },
+      "ref": null,
+      "rendered": "Hello World!",
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-dnqmqq",
+          "isStatic": true,
+          "rules": Array [
+            "
+    ",
+            "
+@media (max-width: ",
+            "575",
+            "px) {
+  ",
+            "
+      color: ",
+            "blue",
+            ";
+    ",
+            "
+};",
+            "
+  ",
+          ],
+        },
+        "displayName": "styled.h1",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-dnqmqq",
+        "target": "h1",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <ForwardRef>
+          Hello World!
+        </ForwardRef>,
+        "forwardedComponent": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-htoDjs",
+            "isStatic": true,
+            "rules": Array [
+              "
+    padding: 4em;
+    background: papayawhip;
+  ",
+            ],
+          },
+          "displayName": "styled.section",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-htoDjs",
+          "target": "section",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+        "forwardedRef": null,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "Hello World!",
+        },
+        "ref": null,
+        "rendered": "Hello World!",
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-dnqmqq",
+            "isStatic": true,
+            "rules": Array [
+              "
+    ",
+              "
+@media (max-width: ",
+              "575",
+              "px) {
+  ",
+              "
+      color: ",
+              "blue",
+              ";
+    ",
+              "
+};",
+              "
+  ",
+            ],
+          },
+          "displayName": "styled.h1",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-dnqmqq",
+          "target": "h1",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
 }
-
-@media (max-width:575px) {
-  .c1 {
-    color: blue;
-  }
-}
-
-<section
-  className="c0"
->
-  <h1
-    className="c1"
-  >
-    Hello World!
-  </h1>
-</section>
 `;
 
 exports[`It should match the mediaBreakpointOnlyLg snapshot 1`] = `
-.c0 {
-  padding: 4em;
-  background: papayawhip;
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ForwardRef>
+    <ForwardRef>
+      Hello World!
+    </ForwardRef>
+  </ForwardRef>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <ForwardRef>
+        Hello World!
+      </ForwardRef>,
+      "forwardedComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-kpOJdX",
+          "isStatic": true,
+          "rules": Array [
+            "
+    padding: 4em;
+    background: papayawhip;
+  ",
+          ],
+        },
+        "displayName": "styled.section",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-kpOJdX",
+        "target": "section",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+      "forwardedRef": null,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": "Hello World!",
+      },
+      "ref": null,
+      "rendered": "Hello World!",
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-dxgOiQ",
+          "isStatic": true,
+          "rules": Array [
+            "
+    ",
+            "
+@media (min-width: ",
+            "992",
+            "px) and (max-width: ",
+            "1199",
+            "px) {
+  ",
+            "
+      color: ",
+            "blue",
+            ";
+    ",
+            "
+};",
+            "
+  ",
+          ],
+        },
+        "displayName": "styled.h1",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-dxgOiQ",
+        "target": "h1",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <ForwardRef>
+          Hello World!
+        </ForwardRef>,
+        "forwardedComponent": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-kpOJdX",
+            "isStatic": true,
+            "rules": Array [
+              "
+    padding: 4em;
+    background: papayawhip;
+  ",
+            ],
+          },
+          "displayName": "styled.section",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-kpOJdX",
+          "target": "section",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+        "forwardedRef": null,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "Hello World!",
+        },
+        "ref": null,
+        "rendered": "Hello World!",
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-dxgOiQ",
+            "isStatic": true,
+            "rules": Array [
+              "
+    ",
+              "
+@media (min-width: ",
+              "992",
+              "px) and (max-width: ",
+              "1199",
+              "px) {
+  ",
+              "
+      color: ",
+              "blue",
+              ";
+    ",
+              "
+};",
+              "
+  ",
+            ],
+          },
+          "displayName": "styled.h1",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-dxgOiQ",
+          "target": "h1",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
 }
-
-@media (min-width:992px) and (max-width:1199px) {
-  .c1 {
-    color: blue;
-  }
-}
-
-<section
-  className="c0"
->
-  <h1
-    className="c1"
-  >
-    Hello World!
-  </h1>
-</section>
 `;
 
 exports[`It should match the mediaBreakpointOnlyMd snapshot 1`] = `
-.c0 {
-  padding: 4em;
-  background: papayawhip;
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ForwardRef>
+    <ForwardRef>
+      Hello World!
+    </ForwardRef>
+  </ForwardRef>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <ForwardRef>
+        Hello World!
+      </ForwardRef>,
+      "forwardedComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-kgoBCf",
+          "isStatic": true,
+          "rules": Array [
+            "
+    padding: 4em;
+    background: papayawhip;
+  ",
+          ],
+        },
+        "displayName": "styled.section",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-kgoBCf",
+        "target": "section",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+      "forwardedRef": null,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": "Hello World!",
+      },
+      "ref": null,
+      "rendered": "Hello World!",
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-kGXeez",
+          "isStatic": true,
+          "rules": Array [
+            "
+    ",
+            "
+@media (min-width: ",
+            "768",
+            "px) and (max-width: ",
+            "991",
+            "px) {
+  ",
+            "
+      color: ",
+            "blue",
+            ";
+    ",
+            "
+};",
+            "
+  ",
+          ],
+        },
+        "displayName": "styled.h1",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-kGXeez",
+        "target": "h1",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <ForwardRef>
+          Hello World!
+        </ForwardRef>,
+        "forwardedComponent": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-kgoBCf",
+            "isStatic": true,
+            "rules": Array [
+              "
+    padding: 4em;
+    background: papayawhip;
+  ",
+            ],
+          },
+          "displayName": "styled.section",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-kgoBCf",
+          "target": "section",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+        "forwardedRef": null,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "Hello World!",
+        },
+        "ref": null,
+        "rendered": "Hello World!",
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-kGXeez",
+            "isStatic": true,
+            "rules": Array [
+              "
+    ",
+              "
+@media (min-width: ",
+              "768",
+              "px) and (max-width: ",
+              "991",
+              "px) {
+  ",
+              "
+      color: ",
+              "blue",
+              ";
+    ",
+              "
+};",
+              "
+  ",
+            ],
+          },
+          "displayName": "styled.h1",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-kGXeez",
+          "target": "h1",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
 }
-
-@media (min-width:768px) and (max-width:991px) {
-  .c1 {
-    color: blue;
-  }
-}
-
-<section
-  className="c0"
->
-  <h1
-    className="c1"
-  >
-    Hello World!
-  </h1>
-</section>
 `;
 
 exports[`It should match the mediaBreakpointOnlySm snapshot 1`] = `
-.c0 {
-  padding: 4em;
-  background: papayawhip;
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ForwardRef>
+    <ForwardRef>
+      Hello World!
+    </ForwardRef>
+  </ForwardRef>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <ForwardRef>
+        Hello World!
+      </ForwardRef>,
+      "forwardedComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-kAzzGY",
+          "isStatic": true,
+          "rules": Array [
+            "
+    padding: 4em;
+    background: papayawhip;
+  ",
+          ],
+        },
+        "displayName": "styled.section",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-kAzzGY",
+        "target": "section",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+      "forwardedRef": null,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": "Hello World!",
+      },
+      "ref": null,
+      "rendered": "Hello World!",
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-chPdSV",
+          "isStatic": true,
+          "rules": Array [
+            "
+    ",
+            "
+@media (min-width: ",
+            "576",
+            "px) and (max-width: ",
+            "767",
+            "px) {
+  ",
+            "
+      color: ",
+            "blue",
+            ";
+    ",
+            "
+};",
+            "
+  ",
+          ],
+        },
+        "displayName": "styled.h1",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-chPdSV",
+        "target": "h1",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <ForwardRef>
+          Hello World!
+        </ForwardRef>,
+        "forwardedComponent": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-kAzzGY",
+            "isStatic": true,
+            "rules": Array [
+              "
+    padding: 4em;
+    background: papayawhip;
+  ",
+            ],
+          },
+          "displayName": "styled.section",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-kAzzGY",
+          "target": "section",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+        "forwardedRef": null,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "Hello World!",
+        },
+        "ref": null,
+        "rendered": "Hello World!",
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-chPdSV",
+            "isStatic": true,
+            "rules": Array [
+              "
+    ",
+              "
+@media (min-width: ",
+              "576",
+              "px) and (max-width: ",
+              "767",
+              "px) {
+  ",
+              "
+      color: ",
+              "blue",
+              ";
+    ",
+              "
+};",
+              "
+  ",
+            ],
+          },
+          "displayName": "styled.h1",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-chPdSV",
+          "target": "h1",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
 }
-
-@media (min-width:576px) and (max-width:767px) {
-  .c1 {
-    color: blue;
-  }
-}
-
-<section
-  className="c0"
->
-  <h1
-    className="c1"
-  >
-    Hello World!
-  </h1>
-</section>
 `;
 
 exports[`It should match the mediaBreakpointOnlyXl snapshot 1`] = `
-.c0 {
-  padding: 4em;
-  background: papayawhip;
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ForwardRef>
+    <ForwardRef>
+      Hello World!
+    </ForwardRef>
+  </ForwardRef>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <ForwardRef>
+        Hello World!
+      </ForwardRef>,
+      "forwardedComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-ckVGcZ",
+          "isStatic": true,
+          "rules": Array [
+            "
+    padding: 4em;
+    background: papayawhip;
+  ",
+          ],
+        },
+        "displayName": "styled.section",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-ckVGcZ",
+        "target": "section",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+      "forwardedRef": null,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": "Hello World!",
+      },
+      "ref": null,
+      "rendered": "Hello World!",
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-jKJlTe",
+          "isStatic": true,
+          "rules": Array [
+            "
+    ",
+            "
+@media (min-width: ",
+            "1200",
+            "px) {
+  ",
+            "
+      color: ",
+            "blue",
+            ";
+    ",
+            "
+};",
+            "
+  ",
+          ],
+        },
+        "displayName": "styled.h1",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-jKJlTe",
+        "target": "h1",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <ForwardRef>
+          Hello World!
+        </ForwardRef>,
+        "forwardedComponent": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-ckVGcZ",
+            "isStatic": true,
+            "rules": Array [
+              "
+    padding: 4em;
+    background: papayawhip;
+  ",
+            ],
+          },
+          "displayName": "styled.section",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-ckVGcZ",
+          "target": "section",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+        "forwardedRef": null,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "Hello World!",
+        },
+        "ref": null,
+        "rendered": "Hello World!",
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-jKJlTe",
+            "isStatic": true,
+            "rules": Array [
+              "
+    ",
+              "
+@media (min-width: ",
+              "1200",
+              "px) {
+  ",
+              "
+      color: ",
+              "blue",
+              ";
+    ",
+              "
+};",
+              "
+  ",
+            ],
+          },
+          "displayName": "styled.h1",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-jKJlTe",
+          "target": "h1",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
 }
-
-@media (min-width:1200px) {
-  .c1 {
-    color: blue;
-  }
-}
-
-<section
-  className="c0"
->
-  <h1
-    className="c1"
-  >
-    Hello World!
-  </h1>
-</section>
 `;
 
 exports[`It should match the mediaBreakpointOnlyXs snapshot 1`] = `
-.c0 {
-  padding: 4em;
-  background: papayawhip;
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ForwardRef>
+    <ForwardRef>
+      Hello World!
+    </ForwardRef>
+  </ForwardRef>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <ForwardRef>
+        Hello World!
+      </ForwardRef>,
+      "forwardedComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-jzJRlG",
+          "isStatic": true,
+          "rules": Array [
+            "
+    padding: 4em;
+    background: papayawhip;
+  ",
+          ],
+        },
+        "displayName": "styled.section",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-jzJRlG",
+        "target": "section",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+      "forwardedRef": null,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": "Hello World!",
+      },
+      "ref": null,
+      "rendered": "Hello World!",
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-cSHVUG",
+          "isStatic": true,
+          "rules": Array [
+            "
+    ",
+            "
+@media (max-width: ",
+            "575",
+            "px) {
+  ",
+            "
+      color: ",
+            "blue",
+            ";
+    ",
+            "
+};",
+            "
+  ",
+          ],
+        },
+        "displayName": "styled.h1",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-cSHVUG",
+        "target": "h1",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <ForwardRef>
+          Hello World!
+        </ForwardRef>,
+        "forwardedComponent": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-jzJRlG",
+            "isStatic": true,
+            "rules": Array [
+              "
+    padding: 4em;
+    background: papayawhip;
+  ",
+            ],
+          },
+          "displayName": "styled.section",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-jzJRlG",
+          "target": "section",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+        "forwardedRef": null,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "Hello World!",
+        },
+        "ref": null,
+        "rendered": "Hello World!",
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-cSHVUG",
+            "isStatic": true,
+            "rules": Array [
+              "
+    ",
+              "
+@media (max-width: ",
+              "575",
+              "px) {
+  ",
+              "
+      color: ",
+              "blue",
+              ";
+    ",
+              "
+};",
+              "
+  ",
+            ],
+          },
+          "displayName": "styled.h1",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-cSHVUG",
+          "target": "h1",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
 }
-
-@media (max-width:575px) {
-  .c1 {
-    color: blue;
-  }
-}
-
-<section
-  className="c0"
->
-  <h1
-    className="c1"
-  >
-    Hello World!
-  </h1>
-</section>
 `;
 
 exports[`It should match the mediaBreakpointUpLg snapshot 1`] = `
-.c0 {
-  padding: 4em;
-  background: papayawhip;
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ForwardRef>
+    <ForwardRef>
+      Hello World!
+    </ForwardRef>
+  </ForwardRef>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <ForwardRef>
+        Hello World!
+      </ForwardRef>,
+      "forwardedComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-ifAKCX",
+          "isStatic": true,
+          "rules": Array [
+            "
+    padding: 4em;
+    background: papayawhip;
+  ",
+          ],
+        },
+        "displayName": "styled.section",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-ifAKCX",
+        "target": "section",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+      "forwardedRef": null,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": "Hello World!",
+      },
+      "ref": null,
+      "rendered": "Hello World!",
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-EHOje",
+          "isStatic": true,
+          "rules": Array [
+            "
+    ",
+            "
+@media (min-width: ",
+            "992",
+            "px) {
+  ",
+            "
+      color: ",
+            "blue",
+            ";
+    ",
+            "
+};",
+            "
+  ",
+          ],
+        },
+        "displayName": "styled.h1",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-EHOje",
+        "target": "h1",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <ForwardRef>
+          Hello World!
+        </ForwardRef>,
+        "forwardedComponent": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-ifAKCX",
+            "isStatic": true,
+            "rules": Array [
+              "
+    padding: 4em;
+    background: papayawhip;
+  ",
+            ],
+          },
+          "displayName": "styled.section",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-ifAKCX",
+          "target": "section",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+        "forwardedRef": null,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "Hello World!",
+        },
+        "ref": null,
+        "rendered": "Hello World!",
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-EHOje",
+            "isStatic": true,
+            "rules": Array [
+              "
+    ",
+              "
+@media (min-width: ",
+              "992",
+              "px) {
+  ",
+              "
+      color: ",
+              "blue",
+              ";
+    ",
+              "
+};",
+              "
+  ",
+            ],
+          },
+          "displayName": "styled.h1",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-EHOje",
+          "target": "h1",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
 }
-
-@media (min-width:992px) {
-  .c1 {
-    color: blue;
-  }
-}
-
-<section
-  className="c0"
->
-  <h1
-    className="c1"
-  >
-    Hello World!
-  </h1>
-</section>
 `;
 
 exports[`It should match the mediaBreakpointUpMd snapshot 1`] = `
-.c0 {
-  padding: 4em;
-  background: papayawhip;
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ForwardRef>
+    <ForwardRef>
+      Hello World!
+    </ForwardRef>
+  </ForwardRef>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <ForwardRef>
+        Hello World!
+      </ForwardRef>,
+      "forwardedComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-htpNat",
+          "isStatic": true,
+          "rules": Array [
+            "
+    padding: 4em;
+    background: papayawhip;
+  ",
+          ],
+        },
+        "displayName": "styled.section",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-htpNat",
+        "target": "section",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+      "forwardedRef": null,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": "Hello World!",
+      },
+      "ref": null,
+      "rendered": "Hello World!",
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bxivhb",
+          "isStatic": true,
+          "rules": Array [
+            "
+    ",
+            "
+@media (min-width: ",
+            "768",
+            "px) {
+  ",
+            "
+      color: ",
+            "blue",
+            ";
+    ",
+            "
+};",
+            "
+  ",
+          ],
+        },
+        "displayName": "styled.h1",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-bxivhb",
+        "target": "h1",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <ForwardRef>
+          Hello World!
+        </ForwardRef>,
+        "forwardedComponent": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-htpNat",
+            "isStatic": true,
+            "rules": Array [
+              "
+    padding: 4em;
+    background: papayawhip;
+  ",
+            ],
+          },
+          "displayName": "styled.section",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-htpNat",
+          "target": "section",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+        "forwardedRef": null,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "Hello World!",
+        },
+        "ref": null,
+        "rendered": "Hello World!",
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bxivhb",
+            "isStatic": true,
+            "rules": Array [
+              "
+    ",
+              "
+@media (min-width: ",
+              "768",
+              "px) {
+  ",
+              "
+      color: ",
+              "blue",
+              ";
+    ",
+              "
+};",
+              "
+  ",
+            ],
+          },
+          "displayName": "styled.h1",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bxivhb",
+          "target": "h1",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
 }
-
-@media (min-width:768px) {
-  .c1 {
-    color: blue;
-  }
-}
-
-<section
-  className="c0"
->
-  <h1
-    className="c1"
-  >
-    Hello World!
-  </h1>
-</section>
 `;
 
 exports[`It should match the mediaBreakpointUpSm snapshot 1`] = `
-.c0 {
-  padding: 4em;
-  background: papayawhip;
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ForwardRef>
+    <ForwardRef>
+      Hello World!
+    </ForwardRef>
+  </ForwardRef>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <ForwardRef>
+        Hello World!
+      </ForwardRef>,
+      "forwardedComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bdVaJa",
+          "isStatic": true,
+          "rules": Array [
+            "
+    padding: 4em;
+    background: papayawhip;
+  ",
+          ],
+        },
+        "displayName": "styled.section",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-bdVaJa",
+        "target": "section",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+      "forwardedRef": null,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": "Hello World!",
+      },
+      "ref": null,
+      "rendered": "Hello World!",
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bwzfXH",
+          "isStatic": true,
+          "rules": Array [
+            "
+    ",
+            "
+@media (min-width: ",
+            "576",
+            "px) {
+  ",
+            "
+      color: ",
+            "blue",
+            ";
+    ",
+            "
+};",
+            "
+  ",
+          ],
+        },
+        "displayName": "styled.h1",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-bwzfXH",
+        "target": "h1",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <ForwardRef>
+          Hello World!
+        </ForwardRef>,
+        "forwardedComponent": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": true,
+            "rules": Array [
+              "
+    padding: 4em;
+    background: papayawhip;
+  ",
+            ],
+          },
+          "displayName": "styled.section",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "section",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+        "forwardedRef": null,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "Hello World!",
+        },
+        "ref": null,
+        "rendered": "Hello World!",
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bwzfXH",
+            "isStatic": true,
+            "rules": Array [
+              "
+    ",
+              "
+@media (min-width: ",
+              "576",
+              "px) {
+  ",
+              "
+      color: ",
+              "blue",
+              ";
+    ",
+              "
+};",
+              "
+  ",
+            ],
+          },
+          "displayName": "styled.h1",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bwzfXH",
+          "target": "h1",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
 }
-
-@media (min-width:576px) {
-  .c1 {
-    color: blue;
-  }
-}
-
-<section
-  className="c0"
->
-  <h1
-    className="c1"
-  >
-    Hello World!
-  </h1>
-</section>
 `;
 
 exports[`It should match the mediaBreakpointUpXl snapshot 1`] = `
-.c0 {
-  padding: 4em;
-  background: papayawhip;
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ForwardRef>
+    <ForwardRef>
+      Hello World!
+    </ForwardRef>
+  </ForwardRef>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <ForwardRef>
+        Hello World!
+      </ForwardRef>,
+      "forwardedComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bZQynM",
+          "isStatic": true,
+          "rules": Array [
+            "
+    padding: 4em;
+    background: papayawhip;
+  ",
+          ],
+        },
+        "displayName": "styled.section",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-bZQynM",
+        "target": "section",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+      "forwardedRef": null,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": "Hello World!",
+      },
+      "ref": null,
+      "rendered": "Hello World!",
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-gzVnrw",
+          "isStatic": true,
+          "rules": Array [
+            "
+    ",
+            "
+@media (min-width: ",
+            "1200",
+            "px) {
+  ",
+            "
+      color: ",
+            "blue",
+            ";
+    ",
+            "
+};",
+            "
+  ",
+          ],
+        },
+        "displayName": "styled.h1",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-gzVnrw",
+        "target": "h1",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <ForwardRef>
+          Hello World!
+        </ForwardRef>,
+        "forwardedComponent": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bZQynM",
+            "isStatic": true,
+            "rules": Array [
+              "
+    padding: 4em;
+    background: papayawhip;
+  ",
+            ],
+          },
+          "displayName": "styled.section",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bZQynM",
+          "target": "section",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+        "forwardedRef": null,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "Hello World!",
+        },
+        "ref": null,
+        "rendered": "Hello World!",
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-gzVnrw",
+            "isStatic": true,
+            "rules": Array [
+              "
+    ",
+              "
+@media (min-width: ",
+              "1200",
+              "px) {
+  ",
+              "
+      color: ",
+              "blue",
+              ";
+    ",
+              "
+};",
+              "
+  ",
+            ],
+          },
+          "displayName": "styled.h1",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-gzVnrw",
+          "target": "h1",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
 }
-
-@media (min-width:1200px) {
-  .c1 {
-    color: blue;
-  }
-}
-
-<section
-  className="c0"
->
-  <h1
-    className="c1"
-  >
-    Hello World!
-  </h1>
-</section>
 `;

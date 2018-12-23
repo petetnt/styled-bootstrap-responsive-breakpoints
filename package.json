@@ -1,6 +1,6 @@
 {
   "name": "styled-bootstrap-responsive-breakpoints",
-  "version": "6.0.1",
+  "version": "7.0.0",
   "description": "Bootstrap responsive breakpoints for styled-components (and other CSS-in-JS techniques)",
   "main": "index.es5.js",
   "repository": "https://github.com/petetnt/styled-bootstrap-responsive-breakpoints",
@@ -14,30 +14,31 @@
     "prepublish": "yarn build"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0-beta.55",
-    "@babel/preset-env": "^7.0.0-beta.55",
-    "@babel/preset-react": "^7.0.0-beta.55",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.2",
+    "@babel/preset-react": "^7.0.0",
     "babel-core": "^7.0.0-0",
     "babel-jest": "^23.4.2",
     "babel-loader": "^8.0.0-beta",
-    "enzyme": "^2.8.0",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.7.1",
     "eslint": "^3.18.0",
     "eslint-config-airbnb": "^14.1.0",
     "eslint-config-motley": "^6.0.1",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.3",
-    "jest": "^23.4.2",
-    "jest-styled-components": "5.0.1",
+    "jest": "^23.6.0",
+    "jest-styled-components": "^7.0.0-2",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-test-renderer": "16.0.0",
-    "styled-components": "3.3.3",
+    "styled-components": "4.1.2",
     "webpack": "^4.1.6",
     "webpack-command": "^0.4.1"
   },
   "peerDependencies": {
-    "styled-components": "^3.3.3"
+    "styled-components": "^3 || ^4"
   },
   "files": [
     "index.js",
